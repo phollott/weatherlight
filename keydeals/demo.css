@@ -2,8 +2,7 @@ path {
     stroke: #fff;
     fill-rule: evenodd;
 }
+
 text {
     font-size: 8pt;
 }
-
-/*http://blog.luzid.com/2013/extending-the-d3-zoomable-sunburst-with-labels/*/
