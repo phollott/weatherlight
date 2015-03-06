@@ -36,7 +36,7 @@ var arc = d3.svg.arc()
 });
 
 //d3.json("/d/4063550/flare.json", function(error, root) {
-var root = root4
+var root = keydeals
 
 var g = svg.selectAll("g")
     .data(partition.nodes(root))
@@ -60,8 +60,8 @@ var text = g.append("text")
 });
 
 text.append("title").text(function (d) {
-    if (d.long)
-        return d.long+': $'+d.size;
+    if (d.title)
+        return d.title;
     else
         return d.name;        
 });
