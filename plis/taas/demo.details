@@ -1,0 +1,11 @@
+http://jsfiddle.net/gh/get/d3/3.0.4/phollott/weatherlight/tree/master/plis/taas/
+requires d3.js
+---
+name: PLIS samples - okay for public
+description: Example of how you can use d3 to create a simple quadrant diagram based on not so basic flare data
+authors:
+- Piers Hollott
+normalize_css: no
+wrap: l
+panel_js: 0
+panel_css: 0
